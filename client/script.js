@@ -4,7 +4,7 @@ async function analyzePassword() {
     document.getElementById("password").value;
 
   const response = await fetch(
-    "https://cybersecure-password-analyzer.onrender.com",
+    "https://cybersecure-password-analyzer.onrender.com/analyze",
     {
       method: "POST",
       headers: {
